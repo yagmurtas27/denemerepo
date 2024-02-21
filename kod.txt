@@ -1,0 +1,15 @@
+ 
+#include <iostream>
+using namespace std;
+int main()
+{
+   setlocale(LC_ALL,"Turkish"); //Türkçe karakter
+   int vize,final,ort;
+   cout<<"Vize Notunu Girin : ";
+   cin>>vize;
+   cout<<"Final Notunu Girin : ";
+   cin>>final;
+   ort=(vize*0.3)+(final*0.7);
+   cout<<"Ortalama : "<<ort;
+}
+ 
